@@ -6,7 +6,7 @@
 #    By: mbelarab <mbelarab@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/10/14 08:35:42 by mbelarab          #+#    #+#              #
-#    Updated: 2026/10/14 17:56:33 by mbelarab         ###   ########.fr        #
+#    Updated: 2026/10/14 22:17:58 by mbelarab         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,6 +23,10 @@ SRC = main.c \
 	ft_isprint.c \
 	ft_toupper.c \
 	ft_tolower.c \
+	ft_strlen.c \
+	ft_putchar_fd.c \
+	ft_putstr_fd.c \
+	ft_putendl_fd.c \
 
 OBJ = $(SRC:.c=.o)
 
