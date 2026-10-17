@@ -6,7 +6,7 @@
 #    By: mbelarab <mbelarab@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/10/14 08:35:42 by mbelarab          #+#    #+#              #
-#    Updated: 2026/10/16 14:36:30 by mbelarab         ###   ########.fr        #
+#    Updated: 2026/10/17 19:46:56 by mbelarab         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,6 +32,7 @@ SRC = main.c \
 	ft_memcpy.c \
 	ft_memmove.c \
 	ft_strlcpy.c \
+	ft_strchr.c \
 
 OBJ = $(SRC:.c=.o)
 
