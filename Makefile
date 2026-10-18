@@ -6,7 +6,7 @@
 #    By: mbelarab <mbelarab@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/10/14 08:35:42 by mbelarab          #+#    #+#              #
-#    Updated: 2026/10/18 20:36:12 by mbelarab         ###   ########.fr        #
+#    Updated: 2026/10/18 21:20:59 by mbelarab         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -41,6 +41,7 @@ SRC = main.c \
 	ft_atoi.c \
 	ft_calloc.c \
 	ft_strdup.c \
+	ft_substr.c \
 	
 OBJ = $(SRC:.c=.o)
 
