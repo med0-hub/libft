@@ -6,7 +6,7 @@
 /*   By: mbelarab <mbelarab@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/20 09:01:22 by mbelarab          #+#    #+#             */
-/*   Updated: 2026/10/24 11:48:18 by mbelarab         ###   ########.fr       */
+/*   Updated: 2026/10/24 13:39:54 by mbelarab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,7 +63,7 @@ static char	**fill_str(char const *s, char **res, char c)
 	return (res);
 }
 
-char	**ft_split(char *s, char c)
+char	**ft_split(char const *s, char c)
 {
 	unsigned int	words;
 	char			**res;

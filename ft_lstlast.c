@@ -6,13 +6,13 @@
 /*   By: mbelarab <mbelarab@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/23 09:42:17 by mbelarab          #+#    #+#             */
-/*   Updated: 2026/10/23 11:25:52 by mbelarab         ###   ########.fr       */
+/*   Updated: 2026/10/24 13:41:37 by mbelarab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_list *ft_lstlast(t_list *lst)
+t_list	*ft_lstlast(t_list *lst)
 {
 	t_list	*count;
 
