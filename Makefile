@@ -6,7 +6,7 @@
 #    By: mbelarab <mbelarab@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/10/14 08:35:42 by mbelarab          #+#    #+#              #
-#    Updated: 2026/10/21 09:34:54 by mbelarab         ###   ########.fr        #
+#    Updated: 2026/10/23 18:35:28 by mbelarab         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -50,6 +50,13 @@ SRC = main.c \
 	ft_strmapi.c \
 	ft_striteri.c \
 	ft_putnbr_fd.c \
+	ft_lstnew.c \
+	ft_lstadd_front.c \
+	ft_lstsize.c \
+	ft_lstlast.c \
+	ft_lstadd_back.c \
+	ft_lstdelone.c \
+	ft_lstclear.c \
 
 OBJ = $(SRC:.c=.o)
 
