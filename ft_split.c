@@ -6,7 +6,7 @@
 /*   By: mbelarab <mbelarab@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/20 09:01:22 by mbelarab          #+#    #+#             */
-/*   Updated: 2026/10/21 10:31:59 by mbelarab         ###   ########.fr       */
+/*   Updated: 2026/10/24 11:48:18 by mbelarab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ static void	free_split(char **res, unsigned int i)
 	free(res);
 }
 
-static char	**fill_str(const char *s, char **res, char c)
+static char	**fill_str(char const *s, char **res, char c)
 {
 	unsigned int	i;
 	unsigned int	start;

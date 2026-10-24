@@ -5,12 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbelarab <mbelarab@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/13 20:24:55 by mbelarab          #+#    #+#             */
-<<<<<<< Updated upstream
-/*   Updated: 2026/10/23 18:29:14 by mbelarab         ###   ########.fr       */
-=======
-/*   Updated: 2026/10/24 10:08:10 by mbelarab         ###   ########.fr       */
->>>>>>> Stashed changes
+/*   Created: 2026/10/24 13:13:22 by mbelarab          #+#    #+#             */
+/*   Updated: 2026/10/24 13:13:26 by mbelarab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +15,6 @@
 
 # include <stdlib.h>
 # include <unistd.h>
-# include <string.h>
 
 typedef struct s_list
 {
@@ -68,5 +63,7 @@ t_list	*ft_lstlast(t_list *lst);
 void	ft_lstadd_back(t_list **lst, t_list *new);
 void	ft_lstdelone(t_list *lst, void (*del)(void *));
 void	ft_lstclear(t_list **lst, void (*del)(void *));
+void	ft_lstiter(t_list *lst, void (*f)(void *));
+t_list	*ft_lstmap(t_list *lst, void *(*f)(void *),void (*del)(void *));
 
 #endif
