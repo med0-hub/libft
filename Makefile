@@ -6,7 +6,11 @@
 #    By: mbelarab <mbelarab@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/10/14 08:35:42 by mbelarab          #+#    #+#              #
+<<<<<<< Updated upstream
 #    Updated: 2026/10/23 18:35:28 by mbelarab         ###   ########.fr        #
+=======
+#    Updated: 2026/10/24 10:07:43 by mbelarab         ###   ########.fr        #
+>>>>>>> Stashed changes
 #                                                                              #
 # **************************************************************************** #
 
@@ -57,6 +61,10 @@ SRC = main.c \
 	ft_lstadd_back.c \
 	ft_lstdelone.c \
 	ft_lstclear.c \
+<<<<<<< Updated upstream
+=======
+	
+>>>>>>> Stashed changes
 
 OBJ = $(SRC:.c=.o)
 

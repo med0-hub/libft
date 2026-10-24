@@ -6,12 +6,11 @@
 /*   By: mbelarab <mbelarab@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/20 10:22:26 by mbelarab          #+#    #+#             */
-/*   Updated: 2026/10/20 11:13:12 by mbelarab         ###   ########.fr       */
+/*   Updated: 2026/10/21 11:12:38 by mbelarab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 static unsigned int	ft_intlen(long n)
 {
@@ -41,6 +40,8 @@ char	*ft_itoa(int n)
 	nb = n;
 	len = ft_intlen(nb);
 	str = malloc(sizeof(char) * len + 1);
+	if (!str)
+		return (NULL);
 	if (nb < 0)
 	{
 		nb = -nb;

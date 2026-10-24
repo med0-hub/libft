@@ -6,7 +6,7 @@
 /*   By: mbelarab <mbelarab@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/16 08:22:56 by mbelarab          #+#    #+#             */
-/*   Updated: 2026/10/16 09:12:45 by mbelarab         ###   ########.fr       */
+/*   Updated: 2026/10/21 10:53:48 by mbelarab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	unsigned char		*d;
 	const unsigned char	*s;
 
+	if (!dest && !src)
+		return (NULL);
 	s = src;
 	d = dest;
 	i = 0;
@@ -28,11 +30,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (d);
 }
-
-// int main(void)
-// {
-// 	char *s = "Med";
-// 	char d[5];
-// 	ft_memcpy(d, s, 4);
-// 	printf("%s", d);
-// }

@@ -6,7 +6,7 @@
 /*   By: mbelarab <mbelarab@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 17:06:11 by mbelarab          #+#    #+#             */
-/*   Updated: 2026/10/15 17:21:30 by mbelarab         ###   ########.fr       */
+/*   Updated: 2026/10/21 10:43:16 by mbelarab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 void	ft_bzero(void *s, size_t n)
 {
-	ft_memset(s, '0', n);
+	ft_memset(s, 0, n);
 }
