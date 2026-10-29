@@ -6,7 +6,7 @@
 /*   By: mbelarab <mbelarab@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/21 09:34:07 by mbelarab          #+#    #+#             */
-/*   Updated: 2026/10/21 09:51:48 by mbelarab         ###   ########.fr       */
+/*   Updated: 2026/10/29 14:05:38 by mbelarab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	ft_putnbr_fd(int n, int fd)
 {
 	long	nb;
 
+	if (fd < 0)
+		return ;
 	nb = n;
 	if (nb < 0)
 	{

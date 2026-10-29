@@ -6,7 +6,7 @@
 /*   By: mbelarab <mbelarab@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/14 22:09:37 by mbelarab          #+#    #+#             */
-/*   Updated: 2026/10/14 22:15:18 by mbelarab         ###   ########.fr       */
+/*   Updated: 2026/10/29 14:05:36 by mbelarab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	ft_putendl_fd(char *s, int fd)
 {
 	size_t	i;
 
+	if (fd < 0 || !s)
+		return ;
 	i = 0;
 	while (s[i])
 	{
