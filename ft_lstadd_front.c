@@ -6,7 +6,7 @@
 /*   By: mbelarab <mbelarab@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/22 20:26:05 by mbelarab          #+#    #+#             */
-/*   Updated: 2026/10/24 13:41:02 by mbelarab         ###   ########.fr       */
+/*   Updated: 2026/10/29 10:15:53 by mbelarab         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {
+	if (!lst || !new)
+		return ;
 	new->next = *lst;
 	*lst = new;
 }
